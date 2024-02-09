@@ -1,0 +1,20 @@
+milista = ["frijoles", "huevos", "papas", "porongas", "paprika", "bitches"]
+print(milista[5])
+print(len(milista)) #len es para mirar la longitud de la lista
+milista.append("jabon") #append es para agregar un dato a la lista
+
+for elemento in milista:
+print(elemento)
+#Con este ciclo for podemos recorrer la lista e imprimir cada uno de los elementos
+
+milista.clear
+#Con este comando borramos todos los elementos de la lista
+
+milista.pop()
+#Con este comando borramos el ultimo elemento de la lista o alguno en especifico
+
+milista.reverse()
+#Con este comando invertimos la lista
+
+milista.sort()
+#Con este comando ordenamos la lista
